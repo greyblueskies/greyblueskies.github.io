@@ -21,9 +21,22 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white
+    color: white;
     flex: 1;
     margin: 0;
+}
+p {
+    color: white;
+    align-items: ;
+}
+#text1 {
+    color: white;
+}
+#text2 {
+    color: rgb(45, 45, 45);
+}
+#text {
+    color: rgb(45, 45, 45);
 }
 #nav-ul {
     list-style-image: none;
