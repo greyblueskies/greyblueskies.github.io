@@ -67,8 +67,9 @@ a {
 
 /* main container area beneath menu */
 main {
-  background: rgb(247, 254, 249);
+  background: rgb(139, 177, 127);
   display: flex;
+  border-radius: 20px;
 }
 .sidebar {
   margin-right: 25px;
@@ -99,7 +100,8 @@ h3 {
   margin: 0px;
 }
 #cat {
-  border: 20px rgb(247, 254, 249) solid;
+  border: 20px rgb(139, 177, 127) solid;
+  border-radius: 20px;
 }
 
 #gallery {
@@ -133,4 +135,22 @@ h3 {
 }
 .nav-a {
   color: white;
+}
+
+body {
+  background-image: url(https://images.nationalgeographic.org/image/upload/v1638892272/EducationHub/photos/hoh-river-valley.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-attachment: fixed;
+  
+  height: 300vh;
+}
+
+.cover {
+  background-color: aqua;
+  height: 50vh;
+  margin-top: 90vh;
+  padding: 20px;
 }
