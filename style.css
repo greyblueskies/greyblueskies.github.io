@@ -133,6 +133,8 @@ h3 {
 
 #portfolio {
   color: white;
+  list-style-type: none;
+
 }
 .nav-a {
   color: white;
