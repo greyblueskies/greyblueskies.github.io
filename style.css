@@ -148,19 +148,12 @@ body {
 }
 
 .social:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
   transform: scale(1.1);
-  -webkit-filter: none;
-  filter: none;
 }
 
 .social-pos {
   background-color: rgb(139, 177, 127);
   border: 20px rgb(139, 177, 127) solid;
   border-radius: 20px;
-  position: absolute;
-  position: absolute;
-  top: 10%;
-  right: 10%;
+  float: right;
 }
