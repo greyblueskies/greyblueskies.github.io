@@ -134,8 +134,12 @@ h3 {
 #portfolio {
   color: white;
   list-style-type: none;
-
 }
+
+.portfolio1:hover {
+  transform: scale(1.1);
+}
+
 .nav-a {
   color: white;
 }
