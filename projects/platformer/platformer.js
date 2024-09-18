@@ -40,13 +40,13 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
 
     //at least 5
-
+    createPlatform(0, 130, 150, 10)
+    
 createPlatform(500, 620, 200, 10)
-createPlatform(0, 100, 200, 10)
-createPlatform(100, 500, 200, 10)
-createPlatform(1300, 500, 150, 10)
-createPlatform(1200, 420, 150, 10)
-createPlatform(1200, 420, 10, 200)
+createPlatform(1100, 390, 10, 240)
+createPlatform(1100, 620, 120, 10)
+createPlatform(1280, 510, 150, 10)
+createPlatform(150, 380, 1070, 10)
 
     
     // TODO 2
@@ -59,11 +59,14 @@ createPlatform(1200, 420, 10, 200)
 
     createCollectable("steve", 500, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
     createCollectable("grace", 500, 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
-//"database" 
-//"max" 
-//"steve" 
-//"grace" 
-//"kennedi" 
+    createCollectable("", 500, 300, 20, 0.5)
+    
+    //"diamond"
+    //"database" 
+    //"max" 
+    //"steve" 
+    //"grace" 
+    //"kennedi" 
 
     // TODO 3
     // Create cannons
