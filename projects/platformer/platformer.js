@@ -38,16 +38,18 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-
-    //at least 5
+  
     createPlatform(0, 130, 150, 10)
     
-createPlatform(500, 620, 200, 10)
-createPlatform(1100, 390, 10, 240)
-createPlatform(1100, 620, 120, 10)
-createPlatform(1280, 510, 150, 10)
-createPlatform(150, 380, 1070, 10)
+    createPlatform(400, 620, 500, 10)
 
+    createPlatform(1100, 390, 10, 240)
+    createPlatform(1100, 620, 120, 10)
+    createPlatform(1280, 510, 150, 10)
+    createPlatform(150, 380, 1070, 10)
+
+    createPlatform(465, 260, 150, 10)
+    createPlatform(240, 190, 150, 10)
     
     // TODO 2
     // Create collectables
@@ -55,29 +57,23 @@ createPlatform(150, 380, 1070, 10)
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
-    //at least 3
-
-    createCollectable("steve", 500, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
-    createCollectable("grace", 500, 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
-    createCollectable("", 500, 300, 20, 0.5)
-    
-    //"diamond"
-    //"database" 
-    //"max" 
-    //"steve" 
-    //"grace" 
-    //"kennedi" 
-
+    createCollectable("steve", 520, 400); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
+    createCollectable("grace", 720, 700, 20, 0.5); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
+    createCollectable("max", 1320, 400)
+    createCollectable("diamond", 520, 200, 20, 0.5)
+    createCollectable("kennedi", 290, 220)
+    createCollectable("database", 50, 10)
+ 
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-    //at least 3
+    createCannon("top", 500, 800); // cannon on left wall, 600px down, shooting once per second
+    createCannon("top", 700, 800);
+    createCannon("top", 900, 800);
 
-
-    
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
